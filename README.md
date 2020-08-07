@@ -1,10 +1,10 @@
-# berlinrentslive
+# Frontend for berlinrents.live
 
-> My stunning Nuxt.js project
+This repository contains a [Nuxt](https://nuxtjs.org/) app for the frontend of berlinrents.live
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
