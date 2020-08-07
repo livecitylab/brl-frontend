@@ -1,0 +1,59 @@
+{
+  "name": "berlinrentslive",
+  "version": "1.0.0",
+  "description": "My stunning Nuxt.js project",
+  "author": "Daniel da Rocha",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "lint-staged": {
+    "*.{js,vue}": "npm run lint",
+    "*.{css,vue}": "stylelint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@nuxt/content": "^1.4.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "apollo-boost": "^0.4.9",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0",
+    "geojson2svg": "^1.2.3",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.10.4",
+    "node-fetch": "^2.6.0",
+    "nuxt": "^2.0.0",
+    "nuxt-rfg-icon": "^0.6.4",
+    "reproject-spherical-mercator": "^0.1.3",
+    "@nuxtjs/svg": "^0.1.11"
+  },
+  "devDependencies": {
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/stylelint-module": "^3.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.0.0",
+    "lint-staged": "^10.0.0",
+    "prettier": "^1.19.1",
+    "stylelint": "^10.1.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
